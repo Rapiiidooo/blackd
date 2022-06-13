@@ -14,7 +14,7 @@ env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: docker.io
   # <account>/<repo>
-  IMAGE_NAME: ceeveeya/blackd
+  IMAGE_NAME: vincentlejeune/blackd
 
 
 jobs:
