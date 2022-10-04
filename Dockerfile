@@ -1,6 +1,6 @@
 FROM python:3.10-slim AS builder
 RUN apt update && apt install -y git build-essential \
-    && pip install --upgrade pip setuptools wheel black[d]
+    && pip install --upgrade pip setuptools wheel black[d]==22.8.0
 
 FROM python:3.10-slim
 COPY --from=builder /usr/local/ /usr/local/
